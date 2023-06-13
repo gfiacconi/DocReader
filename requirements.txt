@@ -1,0 +1,11 @@
+pandas
+matplotlib
+transformers
+langchain
+openai
+langchain
+pypdf
+textract
+PyPDF2
+faiss-cpu
+streamlit-extras
