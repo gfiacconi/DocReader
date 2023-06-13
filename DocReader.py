@@ -12,7 +12,6 @@ import os
 import base64
 import time
 
-
 #os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"] 
 
 def set_background(svg_file):
