@@ -47,10 +47,6 @@ with st.sidebar:
  
 
 def main():
-    st.set_page_config(
-        page_title="DocReader",
-        page_icon="📖",
-    )
     st.header("DocReader 📖")
     set_background('./assett/background3.svg')
     # upload a PDF file
