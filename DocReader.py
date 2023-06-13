@@ -12,6 +12,9 @@ import os
 import base64
 import time
 
+
+#os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"] 
+
 def set_background(svg_file):
     def get_base64(file_path):
         with open(file_path, 'rb') as f:
@@ -38,15 +41,15 @@ with st.sidebar:
     del diritto ⚖️
  
     ''')
+    st.image('./assett/DocReaderLOGO.png', width=200)
+
     add_vertical_space(5)
     st.write('Made with by [Fiacconi Industries](https://fiacconindustries.netlify.app/) 🚀')
  
 
-os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"] 
-
 def main():
     st.header("DocReader 📖")
-    set_background('./background.svg')
+    set_background('assett/background.svg')
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
  
