@@ -12,7 +12,7 @@ import os
 import base64
 import time
 
-#os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"] 
+os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"] 
 
 def set_background(svg_file):
     def get_base64(file_path):
@@ -48,7 +48,7 @@ with st.sidebar:
 
 def main():
     st.header("DocReader 📖")
-    set_background('assett/background.svg')
+    set_background('./assett/background2.svg')
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
  
