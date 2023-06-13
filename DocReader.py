@@ -43,7 +43,7 @@ with st.sidebar:
     st.image('./assett/DocReaderLOGO.png', width=200)
 
     add_vertical_space(5)
-    st.write('Made with by [Fiacconi Industries](https://fiacconindustries.netlify.app/) 🚀')
+    st.write('Made by [Fiacconi Industries](https://fiacconindustries.netlify.app/) 🚀')
  
 
 def main():
