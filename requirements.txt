@@ -9,3 +9,4 @@ textract
 PyPDF2
 faiss-cpu
 streamlit-extras
+tiktoken
