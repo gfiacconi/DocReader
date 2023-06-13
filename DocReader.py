@@ -48,7 +48,7 @@ with st.sidebar:
 
 def main():
     st.header("DocReader 📖")
-    set_background('./assett/background2.svg')
+    set_background('./assett/background3.svg')
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
  
